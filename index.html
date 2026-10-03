@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What AI Is Actually Doing in HR Technology · Ana Tsintsadze</title>
+<meta name="description" content="An independent review of the evidence behind AI claims in HR technology. Every number labeled. Free.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://*.mailerlite.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://*.mailerlite.com; font-src https://fonts.gstatic.com https://*.mailerlite.com; script-src 'self' https://*.mailerlite.com; connect-src https://*.mailerlite.com; frame-src https://*.mailerlite.com; form-action https://*.mailerlite.com; base-uri 'self'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta property="og:type" content="website">
+<meta property="og:title" content="What AI Is Actually Doing in HR Technology">
+<meta property="og:description" content="An independent review of the evidence behind the claims. Every number labeled. Free.">
+<meta property="og:url" content="https://anaana140707.github.io/ai-hr-report/">
+<meta property="og:image" content="https://anaana140707.github.io/ai-hr-report/assets/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="wrap" style="padding-top:40px;padding-bottom:36px">
+  <div class="eyebrow">Independent evidence review · Free · October 2026</div>
+  <h1>What AI Is Actually Doing in HR Technology</h1>
+  <p class="lead">An independent review of the evidence behind the claims.</p>
+  <p class="muted" style="font-size:16px;line-height:1.55;margin:0 0 24px;max-width:520px">Written for HR teams being sold to, who rarely have time to check the numbers themselves.</p>
+  <div class="byline"><img class="avatar" src="assets/ana-headshot.jpg" alt="Ana Tsintsadze" width="88" height="88"><strong style="font-weight:600;font-size:16px">Ana Tsintsadze</strong></div>
+  <div class="row">
+    <a class="btn" href="#download" data-pdf>Download the full report (PDF)</a>
+    <a class="btn ghost" href="#summary">Read the summary first</a>
+  </div>
+  <div class="trust"><span>Every number labeled</span><span>Nobody paid for this</span><span>No vendor saw it before publication</span></div>
+</header>
+
+<main>
+<section id="summary" class="wrap rule-top" style="padding-top:32px">
+  <h2>Executive summary</h2>
+  <div class="serif-body stack">
+    <p>HR software has learned to act. The evidence that it acts well has not caught up. AI arrived in a recruiting market already under strain. Between 2022 and 2025, applications per role more than doubled while recruiters per company fell by more than half.</p>
+    <p>The value problem is not specific to HR. 88% of HR leaders told Gartner their organizations had not seen significant value from AI tools in general. BCG's 2026 AI at Work study found that organizations redesigning whole workflows got more value than those adding tools. If you are planning AI adoption across your whole organization, read the BCG report in full.</p>
+    <p>Several things are working, and they deserve more attention than they get. Forecasting shift demand is mature and well supported, and group-level resignation trends are usable. In core HR, asking a question in plain words now works, often with general AI tools. Performance tools make feedback more frequent, and being ignored looks worse for people than being criticized. AI coaching helped people reach their own goals in a randomized trial. People who move or are promoted internally tend to stay longer. HR service agents handle routine questions at volume and pass sensitive cases to a person.</p>
+    <p>Two findings about pay are promising, and less settled. On one global remote-work platform, workers in lower-income countries earned several times local income per person. Earned wage access is associated with lower turnover. The evidence behind each finding in this summary differs, and the report labels every claim.</p>
+    <p>Recruiting has the best evidence and the sharpest risks. The structured interview, the best-evidenced hiring method, has become practical to run at scale. What a screening tool is tuned for decides who gets through. In one large hiring study, 9.4% of the applicants the firm's recruiters picked for interview were Black or Hispanic. One algorithm cut that to 4.2%. A differently tuned one raised it to 24.3%. Both algorithms raised the predicted hiring rate above the recruiters' own picks, so the more diverse one gave up nothing on that measure.</p>
+    <p>What the software is told to optimize decides what it does. Scheduling software tuned only for labor cost produces efficient schedules nobody can plan a life around. The same software can let workers swap and claim shifts themselves. Ask what a tool was tuned to maximize, and who chose that.</p>
+    <p>AI is now screening AI. Language models evaluating resumes prefer resumes written by language models. At the same time, in one large sample of real resumes, about 1% carried hidden instructions aimed at AI screeners.</p>
+    <p>Many of the numbers you are shown were measured by the seller, and that is not a problem in itself. You do not need a randomized trial to buy software. You do need to know what was measured, how, and against what. One widely quoted return on investment describes a modeled composite retailer, not a measured customer. One time-to-hire claim is compared with an industry average for which I found no source.</p>
+    <p>Agents act, mostly with permission. Agents now schedule interviews, run first-round screens, close HR cases and check payroll. Nearly every documented design stops for a person to approve. At several major vendors, announcements run ahead of availability.</p>
+    <p>The bill arrives before the saving. Agent pricing is moving to per action, so usage becomes the multiplier. The cost lands on the software budget at once. The saving only becomes money if you need fewer people or hire fewer.</p>
+    <p>The law is moving in both directions. In the EU, inferring emotion from a face or voice at work has been prohibited since February 2025. Duties for high-risk HR systems start in December 2027. Draft guidance says a human sign-off does not take a tool out of scope. In the US, federal guidance on AI in hiring was withdrawn in 2025, while states and courts are adding rules.</p>
+    <p>"AI" and "predictive" can each mean many different things sold under one word. So the strongest question for a vendor is not whether the AI works. It is what exactly it does, what it was built to maximize, and what happens when it is wrong. Part 1 explains what gets called AI and where the money sits. Part 2 goes vertical by vertical: what AI adds, what works and what goes wrong. Part 3 covers the risks across all HR tech: law, bias, agents, cost, prediction and data. Part 4 turns the question into twenty checks you can print. Part 5 profiles nine vendors worth checking. If you read one part, make it <a href="#before-you-buy">Part 4</a>.</p>
+  </div>
+</section>
+
+<section id="download" class="wrap" style="padding-top:32px">
+  <div class="card">
+    <h2 style="font-size:26px;margin-bottom:8px">Every number carries a label</h2>
+    <p class="muted" style="font-size:16px;line-height:1.55;margin-bottom:18px">So you can see where each claim comes from, and decide how much weight to give it.</p>
+    <div class="labels">
+      <div><span class="tag v"><span>Verified</span></span><span>Traced to a primary source you can open yourself: a peer-reviewed paper, a court document, a regulator.</span></div>
+      <div><span class="tag r"><span>Reported</span></span><span>Credible journalism, surveys and analyst data, or research not yet peer reviewed.</span></div>
+      <div><span class="tag vr"><span>Vendor-reported</span></span><span>A company's own number about its own product. Often true, never independently confirmed.</span></div>
+      <div><span class="tag u"><span>Unverified</span></span><span>I looked for a source and could not find one.</span></div>
+    </div>
+    <p class="muted" style="font-size:15px;line-height:1.5;margin-bottom:20px">My own views carry no label. They are judgment, not findings.</p>
+    <a class="btn block" href="#download" data-pdf>Download the full report (PDF)</a>
+    <p class="small" style="text-align:center;margin-top:8px">Free. Enter your email and it downloads straight away.</p>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid var(--rule);margin-top:18px;padding-top:16px;font-size:15px;line-height:1.45">
+      <span>Five minutes of feedback decides what I check next.</span>
+      <a href="#survey" data-survey style="font-weight:600">Take the survey</a>
+    </div>
+    <p class="small" style="margin-top:16px;font-size:12.5px">Researched and drafted with AI assistance. Every source here was checked, and anything that could not be verified is labeled as such.</p>
+  </div>
+</section>
+
+<section id="why" class="wrap">
+  <h2>Why this exists</h2>
+  <div class="body stack">
+    <p>I spent eight years in HR, and sat through a lot of software demonstrations. The slides were always confident. "Studies show." "Companies see." "Up to 80%." And almost never checkable.</p>
+    <p>I also worked on an AI product that succeeded, before the current wave. That is why the hype is easy to recognize now, and why it is clear how little of it rests on evidence.</p>
+    <p style="font:600 19px/1.5 var(--serif)">So I checked. This is the review I would want before signing anything.</p>
+  </div>
+</section>
+
+<section id="matrix" class="wrap">
+  <h2 style="margin-bottom:12px">Two questions, not one</h2>
+  <p class="body" style="margin-bottom:18px">Before you buy, ask two separate things.</p>
+  <div class="two">
+    <div><strong>Does it work?</strong><p>Technology maturity: does the software reliably do what it claims?</p></div>
+    <div><strong>Does it deliver?</strong><p>Evidence strength: is there independent proof it produces the outcome you are paying for?</p></div>
+  </div>
+  <p class="body" style="margin-bottom:28px">A product can be mature with no outcome evidence at all. That gap is where most overselling happens. Wellbeing apps show it clearly. The technology works as designed. The people using them report no better wellbeing.</p>
+  <div class="mhead"><h3>The evidence at a glance</h3><span class="small" style="font-size:12px">Tap a row for detail</span></div>
+  <div class="mcols"><span>Use case · maturity</span><span>Evidence</span></div>
+    <div class="mgroup">Strong</div>
+    <details class="mrow"><summary><span><span class="mname">Demand forecasting for shifts</span><span class="mmat">Mature</span></span><span><span class="bars l3" aria-label="Evidence: Strong"><i></i><i></i><i></i></span><span class="ev">Strong</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Aggregate demand predicted from sales history, weather and foot traffic</div><div><div class="k">Main risk</div>Serves whoever sets the objective</div></div></details>
+    <details class="mrow"><summary><span><span class="mname">Structured interview support</span><span class="mmat">Mature</span></span><span><span class="bars l3" aria-label="Evidence: Strong"><i></i><i></i><i></i></span><span class="ev">Strong</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Structured interviews average .42 validity against .19 unstructured</div><div><div class="k">Main risk</div>Consistent scoring against the wrong criteria</div></div></details>
+    <details class="mrow"><summary><span><span class="mname">Spaced microlearning</span><span class="mmat">Mature</span></span><span><span class="bars l3" aria-label="Evidence: Strong, for remembering material only"><i></i><i></i><i></i></span><span class="ev">Strong, for remembering material only</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>People remember more with spaced practice, g = 0.74</div><div><div class="k">Main risk</div>Retention of material is not job performance</div></div></details>
+    <details class="mrow"><summary><span><span class="mname">Continuous feedback</span><span class="mmat">Mature</span></span><span><span class="bars l3" aria-label="Evidence: Strong for feedback, thinner for cadence"><i></i><i></i><i></i></span><span class="ev">Strong for feedback, thinner for cadence</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Improves performance on average, backfires in over a third of effects; more frequent feedback associated with better outcomes</div><div><div class="k">Main risk</div>No optimal cadence established</div></div></details>
+    <div class="mgroup">Medium</div>
+    <details class="mrow"><summary><span><span class="mname">Aggregate resignation trends</span><span class="mmat">Mature</span></span><span><span class="bars l2" aria-label="Evidence: Medium"><i></i><i></i><i></i></span><span class="ev">Medium</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Group-level forecasting on large anonymized datasets</div><div><div class="k">Main risk</div>Treating a trend as if it named individuals</div></div></details>
+    <details class="mrow"><summary><span><span class="mname">Employer of record infrastructure</span><span class="mmat">Mature</span></span><span><span class="bars l2" aria-label="Evidence: Medium"><i></i><i></i><i></i></span><span class="ev">Medium</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Remote pay far more equal across countries than conventional pay</div><div><div class="k">Main risk</div>A higher ceiling, not equality</div></div></details>
+    <details class="mrow"><summary><span><span class="mname">HR service automation</span><span class="mmat">Mature</span></span><span><span class="bars l2" aria-label="Evidence: Medium, vendor-measured"><i></i><i></i><i></i></span><span class="ev">Medium, vendor-measured</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Repetitive, high-frequency queries handled at scale</div><div><div class="k">Main risk</div>Deflection counted as resolution</div></div></details>
+    <details class="mrow"><summary><span><span class="mname">AI coaching</span><span class="mmat">Mature</span></span><span><span class="bars l2" aria-label="Evidence: Medium, and narrow"><i></i><i></i><i></i></span><span class="ev">Medium, and narrow</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Goal attainment improved in a randomized trial</div><div><div class="k">Main risk</div>No wellbeing effect; human coaching outperformed it</div></div></details>
+    <details class="mrow"><summary><span><span class="mname">AI screening and ranking</span><span class="mmat">Mature</span></span><span><span class="bars l2" aria-label="Evidence: Medium, and it cuts both ways"><i></i><i></i><i></i></span><span class="ev">Medium, and it cuts both ways</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>The same data can raise or cut diversity depending on what the model is tuned for</div><div><div class="k">Main risk</div>Bias at scale; vendor liability</div></div></details>
+    <details class="mrow"><summary><span><span class="mname">Internal mobility</span><span class="mmat mod">Moderate</span></span><span><span class="bars l2" aria-label="Evidence: Medium"><i></i><i></i><i></i></span><span class="ev">Medium</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Internal movement associated with higher retention</div><div><div class="k">Main risk</div>Manager hoarding; redeployment in disguise</div></div></details>
+    <div class="mgroup">Weak</div>
+    <details class="mrow"><summary><span><span class="mname">Earned wage access</span><span class="mmat">Mature</span></span><span><span class="bars l1" aria-label="Evidence: Weak"><i></i><i></i><i></i></span><span class="ev">Weak</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Association with 8-12% lower turnover, not causally established</div><div><div class="k">Main risk</div>Can mask a low-pay problem rather than solve it</div></div></details>
+    <details class="mrow"><summary><span><span class="mname">HR agents that act</span><span class="mmat mod">Moderate</span></span><span><span class="bars l1" aria-label="Evidence: Weak"><i></i><i></i><i></i></span><span class="ev">Weak</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Vendor-measured only; no peer-reviewed study</div><div><div class="k">Main risk</div>Autonomy ahead of governance</div></div></details>
+    <details class="mrow"><summary><span><span class="mname">Individual attrition prediction</span><span class="mmat mod">Moderate</span></span><span><span class="bars l1" aria-label="Evidence: Weak"><i></i><i></i><i></i></span><span class="ev">Weak</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Accuracy near 98%, measured on a fictional 1,470-row dataset</div><div><div class="k">Main risk</div>False positives attached to named people</div></div></details>
+    <details class="mrow"><summary><span><span class="mname">Individual burnout prediction</span><span class="mmat mod">Moderate</span></span><span><span class="bars l1" aria-label="Evidence: Weak"><i></i><i></i><i></i></span><span class="ev">Weak</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>ROC-AUC 0.70, against 0.93 for other health outcomes</div><div><div class="k">Main risk</div>Surveillance; weak basis for a decision about a person</div></div></details>
+    <div class="mgroup">No benefit found</div>
+    <details class="mrow"><summary><span><span class="mname">Individual wellbeing programs and apps</span><span class="mmat">Mature</span></span><span><span class="bars l0" aria-label="Evidence: No benefit found"><i></i><i></i><i></i></span><span class="ev">No benefit found</span></span></summary><div class="mdetail"><div><div class="k">What the evidence supports</div>Participants no better off than non-participants across 46,336 workers, cross-sectional</div><div><div class="k">Main risk</div>Substitutes for the organizational change that works</div></div></details>
+  <p class="small" style="margin-top:14px">Evidence strength is my judgment about a whole category, from the evidence in Parts 2 and 3. Individual numbers carry their own labels in the report.</p>
+</section>
+
+<section id="deeper" class="wrap">
+  <div class="ddhead"><h2 style="margin:0">Going deeper</h2><button class="linkbtn" id="toggle-all" type="button">Open all</button></div>
+  <p class="muted" style="margin:10px 0 16px;font-size:16px;line-height:1.55">Each section below opens one paragraph of the summary. Tap to read. Each ends with where to find it in the report.</p>
+  <div class="dds">
+    <details class="dd">
+      <summary><span class="n">01</span><span class="t">A hiring market under strain</span></summary>
+      <div class="ddbody">
+        
+        <p>AI did not arrive in a calm market. On Greenhouse's own platform data, applications per open role rose from 116 to 244 between 2022 and 2025. Applications per recruiter rose from 146 to 746. Recruiters per company fell from 10.43 to 4.62. <span class="tag vr"><span>Vendor-reported</span></span></p>
+        <p>Few recruiters can read 244 applications a role carefully. So both sides reached for the same tool. Candidates use AI to apply to more roles. Employers use AI to filter harder. The pile grows again.</p>
+        <p>In Greenhouse's survey of 2,900 job seekers in four countries, only 8% said AI makes hiring fairer. <span class="tag vr"><span>Vendor-reported</span></span></p>
+        <div class="ddfoot"><span>In the report: Part 1, Why now</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+    <details class="dd">
+      <summary><span class="n">02</span><span class="t">The value problem is not only HR's</span></summary>
+      <div class="ddbody">
+        
+        <p>88% of HR leaders told Gartner their organizations had not seen significant business value from AI tools. <span class="tag r"><span>Reported</span></span> That is about AI tools in general, not HR software alone.</p>
+        <p>BCG's 2026 AI at Work study points to one reason. Organizations that redesigned whole workflows got more value than those that only added tools. More than two-thirds of regular AI users reported higher job satisfaction. 41% of all respondents reported more mental strain. <span class="tag r"><span>Reported</span></span></p>
+        <p>If you are planning AI adoption across your whole organization, read the BCG report in full.</p>
+        <div class="ddfoot"><span>In the report: Part 1, Four waves</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+    <details class="dd">
+      <summary><span class="n">03</span><span class="t">What is working</span></summary>
+      <div class="ddbody">
+        
+        <p>The failures get the attention. These deserve some too.</p>
+        <div class="list">
+        <div><strong>Shift demand forecasting.</strong> Mature, with a long peer-reviewed literature behind it. <span class="tag v"><span>Verified</span></span></div>
+        <div><strong>Group-level resignation trends.</strong> Usable for groups, not for named people.</div>
+        <div><strong>Plain-language questions in core HR.</strong> Often possible with general AI tools and a good file.</div>
+        <div><strong>More frequent feedback.</strong> Associated with better outcomes. <span class="tag r"><span>Reported</span></span> Being ignored looks worse for people than being criticized.</div>
+        <div><strong>AI coaching.</strong> In a randomized trial of 169 people, goal attainment rose 55% in the coached group, against 24% in the control group. <span class="tag v"><span>Verified</span></span></div>
+        <div><strong>Internal moves.</strong> 70% of people promoted within three years were still there, against 45% with no move. <span class="tag vr"><span>Vendor-reported</span></span></div>
+        <div><strong>Faster hiring for applicants.</strong> In McDonald's frontline hiring, independent reporting puts the cut in time to hire at about 60%. <span class="tag r"><span>Reported</span></span></div>
+        <div><strong>HR service agents</strong> that answer routine questions at volume and pass sensitive cases to a person.</div>
+        </div>
+        <div class="ddfoot"><span>In the report: Part 2, vertical by vertical</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+    <details class="dd">
+      <summary><span class="n">04</span><span class="t">Two pay findings, promising and less settled</span></summary>
+      <div class="ddbody">
+        
+        <p><strong>Remote pay.</strong> Economists studying one global remote-work platform found remote pay far more equal across countries than conventional pay. Average earnings were around $18,667. That is six to nine times income per person in countries like India, Pakistan and the Philippines. <span class="tag r"><span>Reported</span></span> It is also a fraction of what the same role pays in a Western market. A higher ceiling, not equality.</p>
+        <p><strong>Earned wage access.</strong> A study of 51,543 workers at two large Mexican companies found users were 8% to 12% less likely to leave. Among lower-ranked staff it was about 20%. <span class="tag r"><span>Reported</span></span> The authors call it an association, not a cause, and nobody has taken it further. If someone draws early every month, the tool may be managing low pay rather than solving it.</p>
+        <div class="ddfoot"><span>In the report: Part 2, Payroll and employer of record</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+    <details class="dd">
+      <summary><span class="n">05</span><span class="t">Recruiting: the best evidence and the sharpest risks</span></summary>
+      <div class="ddbody">
+        
+        <p>The structured interview is the best-evidenced idea in the report. It predicts job performance at a validity of .42, against .19 for the unstructured interview most organizations run. <span class="tag v"><span>Verified</span></span> Software now removes the two old obstacles: preparing the questions, and writing everything down.</p>
+        <p>The .42 is an average. The authors expect 80% of structured interviews to land between .18 and .66. <span class="tag v"><span>Verified</span></span> The label alone guarantees nothing.</p>
+        <p>Screening cuts both ways. On a Fortune 500 test set of 39,947 applicants, recruiters picked 9.4% Black or Hispanic applicants for interview. One algorithm cut that to 4.2%. A model built to explore raised it to 24.3%. Both raised predicted hiring rates. <span class="tag v"><span>Verified</span></span></p>
+        <p>And a process change is not an outcome change. Across about 11,300 roles where degree requirements were removed, the net change in who got hired was 0.14%. <span class="tag r"><span>Reported</span></span></p>
+        <div class="ddfoot"><span>In the report: Part 2, Recruiting, screening and interviews</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+    <details class="dd">
+      <summary><span class="n">06</span><span class="t">What the software is told to optimize</span></summary>
+      <div class="ddbody">
+        
+        <p>Scheduling shows the same pattern as screening. Tuned only for labor cost, it produces efficient schedules nobody can plan a life around. That is the problem you bought the software to fix.</p>
+        <p>Tuned differently, the same software gives workers control. In a commissioned model of a composite retailer, 90% of schedule changes became employee-initiated. Open shift claims rose from 34% to 58%, and absenteeism fell 19%. <span class="tag vr"><span>Vendor-reported</span></span></p>
+        <p><strong>The technology does not choose. Someone sets the objective. Ask what a tool was tuned to maximize, and who chose that.</strong></p>
+        <div class="ddfoot"><span>In the report: Part 2, Workforce management, and Part 3</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+    <details class="dd">
+      <summary><span class="n">07</span><span class="t">AI is now screening AI</span></summary>
+      <div class="ddbody">
+        
+        <p>Language models evaluating CVs prefer CVs written by language models. Across 24 occupations, candidates using the same model as the evaluator were 23% to 60% more likely to be shortlisted than equally qualified people who wrote their own. <span class="tag v"><span>Verified</span></span></p>
+        <p>The screeners are targets too. About 1% of nearly 200,000 real resumes carried hidden instructions aimed at AI screeners. <span class="tag v"><span>Verified</span></span></p>
+        <p>Names matter as well. An audit of CV-ranking models, over more than 500 resumes, found they favored one demographic group on the name alone in the great majority of comparisons. <span class="tag v"><span>Verified</span></span></p>
+        <div class="ddfoot"><span>In the report: Part 3, Bias in screening, and The agent layer</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+    <details class="dd">
+      <summary><span class="n">08</span><span class="t">Numbers measured by the seller</span></summary>
+      <div class="ddbody">
+        
+        <p>Seller-measured numbers are not a problem in themselves. You do not need a randomized trial to buy software. You do need to know what was measured, how, and against what.</p>
+        <p>A 1,340% return on investment over three years comes from a commissioned study of a modeled composite retailer, with 15,000 employees across 700 locations. Not a real customer. <span class="tag vr"><span>Vendor-reported</span></span></p>
+        <p>A time to hire of 8.7 days is set against an "industry average" of 36 days. No source is given for the 36. <span class="tag vr"><span>Vendor-reported</span></span></p>
+        <p><strong>Ask what the comparison is before you argue about the headline.</strong></p>
+        <div class="ddfoot"><span>In the report: Part 5, Tools worth checking</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+    <details class="dd">
+      <summary><span class="n">09</span><span class="t">Agents act, mostly with permission</span></summary>
+      <div class="ddbody">
+        
+        <p>Agents now schedule interviews, run first-round screens, close routine HR cases and check payroll. Workday alone reports more than 5,500 customers using at least one of its agents, across HR and finance. <span class="tag vr"><span>Vendor-reported</span></span></p>
+        <p>Nearly every documented design stops for a person to approve. So human review has not gone. It has moved later, behind a shortlist a machine already chose.</p>
+        <p>Announced is not shipped. Workday announced six new HR agents in September 2025. By March 2026, none was generally available. <span class="tag v"><span>Verified</span></span></p>
+        <p>I found no peer-reviewed study of outcomes from a deployed HR agent. <span class="tag u"><span>Unverified</span></span> Among large US companies already using agentic AI, 49% said their governance had not been updated for it. <span class="tag r"><span>Reported</span></span></p>
+        <div class="ddfoot"><span>In the report: Part 3, The agent layer</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+    <details class="dd">
+      <summary><span class="n">10</span><span class="t">The bill arrives before the saving</span></summary>
+      <div class="ddbody">
+        
+        <p>Agent pricing in HR is moving to per action. Recruiting vendors charge overage of about $2.50 to $5 per AI interview. Workday meters its self-service agent at one credit to answer a question and five to complete a task. <span class="tag v"><span>Verified</span></span></p>
+        <p>So employee usage becomes the multiplier you are signing. The cost lands on the software budget at once. The saving becomes money only if you need fewer people, or hire fewer. A business case should show how that happens.</p>
+        <p><strong>Set a usage baseline before renewal, not after.</strong></p>
+        <div class="ddfoot"><span>In the report: Part 3, The bill and the savings</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+    <details class="dd">
+      <summary><span class="n">11</span><span class="t">The law is moving in both directions</span></summary>
+      <div class="ddbody">
+        
+        <p><strong>In the EU, it is tightening.</strong></p>
+        <div class="timeline">
+        <div><span>Since 2 February 2025</span><span>Inferring emotion from a face or voice at work is banned.</span></div>
+        <div><span>Since 2 August 2026</span><span>People must be told when they are dealing with an AI system, such as a hiring chatbot.</span></div>
+        <div><span>From 2 December 2027</span><span>Full duties for high-risk HR systems, from recruitment to performance monitoring.</span></div>
+        </div>
+        <p>Penalties for prohibited uses reach €35m or 7% of global turnover. Draft guidance says a human sign-off alone does not take a tool out of scope. <span class="tag v"><span>Verified</span></span></p>
+        <p><strong>In the US, it is loosening at the top.</strong> Federal guidance on AI in hiring was withdrawn in January 2025. <span class="tag r"><span>Reported</span></span> States and courts are adding rules instead. In Mobley v. Workday, the court let a claim against the software vendor itself proceed in July 2024. A hearing on full class certification is set for March 2027. <span class="tag v"><span>Verified</span></span></p>
+        <div class="ddfoot"><span>In the report: Part 3, The law, and the Annex timetable</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+    <details class="dd">
+      <summary><span class="n">12</span><span class="t">"AI" and "predictive" mean many things</span></summary>
+      <div class="ddbody">
+        
+        <p>Group forecasts work. Forecasting shift demand or group-level resignation trends is well supported. A wrong forecast costs a planning assumption.</p>
+        <p>Predictions about named individuals mostly do not. A 97.7% accuracy figure for predicting who will resign was measured on a fictional dataset of 1,470 rows. <span class="tag v"><span>Verified</span></span> Burnout prediction scored 0.70 on a scale where 0.5 is a coin toss, against 0.93 for other health outcomes. <span class="tag v"><span>Verified</span></span></p>
+        <p>The word "AI" hides as much. The first automated hiring discrimination case the US EEOC settled involved a simple age cutoff. <span class="tag v"><span>Verified</span></span></p>
+        <p><strong>So ask what exactly it does, what it was built to maximize, and what happens when it is wrong.</strong></p>
+        <div class="ddfoot"><span>In the report: Part 1, What gets called AI, and Part 3, Measurement and prediction</span><a href="#download" data-pdf>Download the full report</a></div>
+        
+      </div>
+    </details>
+  </div>
+</section>
+
+<section id="verticals" class="wrap">
+  <h2 style="margin-bottom:10px">Vertical by vertical</h2>
+  <p style="margin-bottom:18px;font-size:16.5px;line-height:1.6">Download the full report to check vertical by vertical: what AI adds, what works and what goes wrong in each.</p>
+  <div class="boxes">
+    <div><span>01</span>Core HR and records</div>
+    <div><span>02</span>Payroll and employer of record</div>
+    <div><span>03</span>Workforce management and scheduling</div>
+    <div><span>04</span>Recruiting and interviews</div>
+    <div><span>05</span>Learning and development</div>
+    <div><span>06</span>Internal mobility</div>
+    <div><span>07</span>Performance management</div>
+    <div><span>08</span>Wellbeing and engagement</div>
+    <div><span>09</span>HR service delivery</div>
+    <div><span>10</span>People analytics</div>
+  </div>
+  <a class="btn" href="#download" data-pdf>Download the full report (PDF)</a>
+</section>
+
+<section id="before-you-buy" class="wrap">
+  <h2 style="margin-bottom:10px">Twenty things to establish before you buy</h2>
+  <p style="margin-bottom:18px;font-size:16.5px;line-height:1.6">Some the vendor answers. Some only you can. Here are five:</p>
+  <div class="qs">
+    <div><b>1</b><span>Is that figure from your customers, or from a study you commissioned? Was it a real customer or a modeled one?</span></div>
+    <div><b>7</b><span>What is this system optimized for, in one sentence, and who chose that objective?</span></div>
+    <div><b>10</b><span>What can any connected agent or integration reach, and which actions can it take without a person approving?</span></div>
+    <div><b>15</b><span>What happens to an employee this system flags incorrectly, and who gets to see that flag?</span></div>
+    <div><b>20</b><span>What decision is this meant to change? Name it before you buy, because insight with no decision attached changes nothing.</span></div>
+  </div>
+  <p class="muted" style="margin:18px 0 10px;font-size:15px;line-height:1.5">All 20 are in Part 4 of the report, built to print and take into a demonstration.</p>
+  <a class="btn" href="#download" data-pdf>Download the full report (PDF)</a>
+</section>
+
+<section id="about" class="wrap">
+  <h2 style="margin-bottom:18px">About me</h2>
+  <img class="banner" src="assets/banner-2026.jpg" alt="Ana Tsintsadze: I learn your customers' business, I help them succeed" width="1600" height="397" loading="lazy">
+  <div class="about">
+    <img class="avatar" src="assets/ana-headshot.jpg" alt="Ana Tsintsadze" width="112" height="112" loading="lazy">
+    <div>
+      <p>I'm Ana Tsintsadze. I hold an MA in Organisational Psychology and I've spent eight years in HR. I have also founded a company, and worked in account management and customer success. I've been on both sides of the demo: buying HR software, and helping customers succeed with software.</p>
+      <p><strong>My interests, stated openly.</strong> I'm open to consulting work in HR technology: needs assessment, implementation, process redesign and compliance policy. I'm also open to roles in HR technology. My rule for both: I want to represent something that solves a real customer problem.</p>
+      <p>Nobody paid for this report. No vendor saw it before publication. I have no commercial relationship with any company named in it.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px 20px;font-weight:600"><a href="https://www.linkedin.com/in/ana-tsintsadze/" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:anatsintsadze@gmail.com">anatsintsadze@gmail.com</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="survey" class="wrap">
+  <div class="dark">
+    <h2 style="font-size:28px;margin-bottom:12px">Tell me what was useful</h2>
+    <p style="margin-bottom:20px;font-size:16.5px;line-height:1.6">If the report saved you an hour, or changed a question you were going to put to a vendor, I would like to know. It takes five minutes, and only your email is required. Your answers decide what I check next.</p>
+    <a class="btn" href="#survey" data-survey>Take the survey</a>
+    <p style="margin-top:16px;font-size:14px;line-height:1.5;color:#C9CED6">Want the next report when it's out? You can tick that in the survey.</p>
+  </div>
+</section>
+</main>
+
+<footer class="wrap">
+  <div>
+    <span>What AI Is Actually Doing in HR Technology · Version 1.0 · October 2026 · Ana Tsintsadze</span>
+    <span>Researched and drafted with AI assistance. Every source checked; anything unverifiable is labeled.</span>
+    <span>Download emails are stored with MailerLite and used only to send you the report link.</span>
+  </div>
+</footer>
+
+<a class="btn fab" href="#download" data-pdf>Download the report (PDF)</a>
+
+<dialog id="gate" aria-labelledby="gate-title">
+  <div class="dlg-top"><h2 id="gate-title" style="font-size:24px;margin:0">Get the full report</h2><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <p class="muted" style="font-size:15.5px;line-height:1.5;margin:6px 0 12px">Free. Enter your email and the download starts straight away.</p>
+  <div class="ml-embedded" data-form="kqHQxN"></div>
+</dialog>
+
+<script src="main.js"></script>
+</body>
+</html>
