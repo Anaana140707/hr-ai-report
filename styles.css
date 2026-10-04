@@ -33,7 +33,8 @@ h3{font:700 20px/1.2 var(--serif);margin:0}
 .tag>span{color:var(--ink)}
 .tag.v{color:var(--ver)}.tag.r{color:var(--rep)}.tag.vr{color:var(--ven)}.tag.u{color:var(--unv)}
 .labels{display:grid;gap:12px;margin:0 0 16px}
-.labels>div{display:grid;grid-template-columns:132px 1fr;gap:12px;align-items:start;font-size:15px;line-height:1.5}
+.labels>div{display:grid;grid-template-columns:168px minmax(0,1fr);gap:16px;align-items:start;font-size:15px;line-height:1.5}
+@media (max-width:480px){.labels{gap:16px}.labels>div{grid-template-columns:minmax(0,1fr);gap:6px}}
 .labels .tag{font-size:11px;padding:2px 8px;justify-self:start}
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:0 0 18px}
 .two>div{border-top:3px solid var(--ink);padding-top:12px}
